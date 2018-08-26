@@ -6,7 +6,7 @@
     - The control signal is received using a ESP8266-01, which is connected to the K82F vis UART
     - The control signal is a UDP Datagram of a specific length
   ----
-  <br>
+ 
 ### UDP Datagram
     - Total length of 10 bytes plus delimiter
     - Bytes 0-1: Mode bitmask
@@ -27,5 +27,5 @@ Gait|16 Bit binary
   RIPPLE|0100000000000000
   TRIPOD|0010000000000000
 ----
-<br>
+
 ### Something else
